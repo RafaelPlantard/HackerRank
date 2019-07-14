@@ -5,7 +5,7 @@
 
 ### Interview Preparation Kit
 #### Warm-up Challenges
-- [ ] Sock Merchant  
+- [x] Sock Merchant  
 - [ ] Counting Valleys  
 - [ ] Jumping on the Clouds  
 - [ ] Repeated String  

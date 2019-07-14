@@ -1,7 +1,7 @@
 import XCTest
 
-import HackerRankTests
+import WarmUpChallengesTests
 
 var tests = [XCTestCaseEntry]()
-tests += HackerRankTests.allTests()
+tests += WarmUpChallengesTests.allTests()
 XCTMain(tests)
