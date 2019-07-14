@@ -1,0 +1,6 @@
+container:
+  image: swift:5.0.1
+
+task:
+  build_script: swift build
+  tests_script: swift test
