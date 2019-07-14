@@ -28,11 +28,8 @@ final class SockMerchant {
         var numberOfMatchingPairsOfSocks = 0
         var dictionary = Dictionary<Int, Int>()
 
-        (0 ..< n).forEach { index in
-            let item = ar[index]
-
-            if dictionary[item] != nil {
-                dictionary.removeValue(forKey: item)
+        ar.forEach { item in
+            if dictionary.removeValue(forKey: item) != nil {
                 numberOfMatchingPairsOfSocks += 1
             } else {
                 dictionary[item] = 1
