@@ -3,5 +3,5 @@ import XCTest
 import WarmUpChallengesTests
 
 var tests = [XCTestCaseEntry]()
-tests += WarmUpChallengesTests.allTests()
+tests += SockMerchantTests.allTests()
 XCTMain(tests)
