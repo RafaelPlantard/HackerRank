@@ -7,5 +7,5 @@
 #### Warm-up Challenges
 - [x] Sock Merchant  
 - [x] Counting Valleys  
-- [ ] Jumping on the Clouds  
+- [x] Jumping on the Clouds  
 - [ ] Repeated String  
