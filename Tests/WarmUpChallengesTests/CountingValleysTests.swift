@@ -21,4 +21,9 @@ final class CountingValleysTests: XCTestCase {
 
         XCTAssertEqual(given, 2)
     }
+
+    static var allTests = [
+        ("testSampleInputCaseZero", testSampleInputCaseZero),
+        ("testSampleInputCaseOne", testSampleInputCaseOne)
+    ]
 }
