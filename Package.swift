@@ -9,7 +9,12 @@ let package = Package(
         // Products define the executables and libraries produced by a package, and make them visible to other packages.
         .library(
             name: "WarmUpChallenges",
-            targets: ["WarmUpChallenges"]),
+            targets: ["WarmUpChallenges"]
+        ),
+        .library(
+            name: "Arrays",
+            targets: ["Arrays"]
+        ),
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
@@ -20,9 +25,19 @@ let package = Package(
         // Targets can depend on other targets in this package, and on products in packages which this package depends on.
         .target(
             name: "WarmUpChallenges",
-            dependencies: []),
+            dependencies: []
+        ),
         .testTarget(
             name: "WarmUpChallengesTests",
-            dependencies: ["WarmUpChallenges"]),
+            dependencies: ["WarmUpChallenges"]
+        ),
+        .target(
+            name: "Arrays",
+            dependencies: []
+        ),
+        .testTarget(
+            name: "ArraysTests",
+            dependencies: ["Arrays"]
+        ),
     ]
 )
